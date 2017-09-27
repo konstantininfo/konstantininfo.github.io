@@ -408,7 +408,7 @@ a.photo:hover img {
 	list-style: none;
 	font-size: 4rem;
 	line-height: 4rem;
-	
+	background-color: #000;
 	z-index: 99; 
 	display: flex;
 	flex-direction: column;
