@@ -1,0 +1,362 @@
+﻿body {
+	margin: 0;
+	padding: 0;
+	font-family: georgia, serif;
+}
+a img {
+	border: none;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0 0 20px;
+	padding: 0; 
+	color: #555;
+	font-family: arial;
+	
+}
+ul {
+margin: 0;
+padding: 0;
+list-style: none;	
+}
+.clearfix {
+	clear: both;
+} 
+.slider {
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+.w960 {
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+	
+	
+}
+.shapka {
+	height: 220px;
+	background: url(../images/fon-shapka.png) repeat-x;	
+	font-family: arial;
+}
+
+.baner {
+	height: 360px;
+	background: #8b8b83 url(../images/fon-baner.png) no-repeat top center;
+	
+}
+.baner ul { 
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.xleb {
+	height: 40px;
+	background: url(../images/fon-xleb.png) repeat-x;
+	
+	
+}
+
+.content {
+	min-height: 400px;
+	background: #fffff0;
+	
+	
+	
+}
+.slider {
+	
+	
+}
+.podval {
+	min-height: 200px;
+	background: url(../images/fon-podval.png) repeat-x;
+  
+
+}
+.center-block {
+	width: 960px;
+	padding: 10px;
+	float: left;
+	margin-bottom: 20px;
+	position: relative;
+	
+}
+
+.left-block {
+	width: 460px;
+	padding: 0 10px;	
+	float: left;
+	position: relative;
+	margin-top: 10px;
+	
+}
+.right-block { 
+  width: 460px;
+  float: right;
+  padding: 0 10px;
+  margin-top: 10px;
+}
+ 
+.logo {
+	margin-top: 10px;
+	margin-left: 20px;	
+}
+.name1 {
+	position: absolute;
+	color: #fffff0;
+	font-style: italic; 
+	top: 125px;
+	left: 36px;	
+	color: #fff;
+	font-family: georgia, san-serif;
+	margin-left: 20px;
+	
+} 
+.name2 {
+	position: absolute;
+	color: #fffff0;
+	font-style: italic; 
+	top: 140px;
+	left: 51px;	
+	color: #fff;
+	font-family: georgia, san-serif;	
+	margin-left: 20px;
+}
+.main-menu {
+	position: absolute;
+	top: 116px;
+	right: 132px;
+}
+.main-menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;	
+}
+.main-menu ul li {
+	display: inline;
+}
+.main-menu ul li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 2px 15px 5px;
+	font-size: 22px;
+	
+}
+.main-menu ul li a:hover {
+	background: #ee5c42;
+	border-radius: 10px;
+}
+.switch {
+	text-align: center; 
+	padding: 12px;
+}
+.switch a {
+	margin-right: 5px;	
+}
+.order {
+	display: block;
+	width: 300px;
+	height: 52px; 
+	background: url(../images/zakaz-stola.png) no-repeat;
+	text-decoration: none;
+	text-align: center;
+	color: #fff;
+	font-size: 30px;
+	font-style: italic;
+	padding-top: 6px;
+	margin-top: -196px;
+	margin-left: 660px;
+}
+.order:hover {
+	text-decoration: underline;	
+}
+h1 span {
+	color: #fff;
+	background: #8b8b83;
+	font-weight: normal;
+	padding:	3px 10px 5px;
+	font-size: 24px;
+	border-radius: 10px;
+	
+	
+	
+}
+.spec-item {
+	position: relative;
+	width: 190px;
+	float: left;
+	margin: 0 45px 10px 0;
+}
+.spec-item p {
+	margin: 0;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 200px;
+	height: 25px;
+	background: #000;
+	color: #fff;
+	opacity: 0.5;
+	font-family: arial, sans-serif;
+	font-size: 14px;
+	padding: 10px;
+	
+}
+.stat h1 span {
+	margin-bottom: 40px;
+	font-size: 24px;
+
+}
+.stat p {
+	margin-top: 30px;
+	line-height: 1.5;
+}
+p {
+	font-family: arial, sans-serif;
+	color: #555;
+}
+.r-article {
+	margin: 0 0 20px 0;
+
+}
+.r-article  h1 span {
+	margin-left: 111px;
+	margin-bottom: 20px;
+	
+}
+.news-text {
+	font-family: arial, sans-serif;
+	color: #555;
+	font-size: 14px;
+	margin: 0;	
+}
+.news {
+	
+	margin-top: 30px;
+	
+}
+hr {
+	margin-top: 30px;
+	padding: 0;
+}
+.basilico {
+	text-align: center;
+	font-size: 24px;
+	color: #f2f2f2;
+	font-family: georgia, sans-serif;
+	font-style: italic;
+	font-weight: normal;
+	padding-top: 10px;	
+}
+.fcol {
+	width: 300px;
+	float: left;
+	padding: 20px 10px
+}
+.fcol h1 {
+	font-size: 24px;
+	color:  #f2f2f2;
+	font-weight: normal;
+}
+.info ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: 17px;
+	color: #333;
+	font-style: italic;
+	
+	
+}
+.info ul li a {
+	color: #f2f2f2;
+	font-size: 18px;
+	line-height: 24px;
+	text-decoration: none;
+}
+.info ul li a:hover {
+	text-decoration: underline;
+}
+
+.contact p {
+  color: #f2f2f2;
+  font-family: georgia, serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.contact a {
+  color: #f2f2f2;
+}
+.contact strong {
+	font-style: italic;
+	font-weight: normal;
+} 
+
+.spec-photo img {
+	margin: 0 7px 5px -2px;
+ 	border: 3px solid #fff;
+}
+a.photo:hover img {
+	border: 3px solid #ff6347;
+	
+}
+
+
+
+.breadcrumbs {
+  padding: 9px 10px 7px;
+}
+
+.breadcrumbs span {
+  color: #808080;
+  font-family: georgia, serif;
+  font-style: italic;
+  text-transform: lowercase;
+  font-size: 20px;
+}
+
+.breadcrumbs span a {
+  text-decoration: none;
+  color: #aaa;
+}
+
+.breadcrumbs span a:hover {
+  color: #808080;
+  text-decoration: underline;
+}
+
+.photoinfo {
+	margin-right: 10px;
+	margin-bottom: 10px;
+	
+	
+}
+.strong {
+	
+	
+}
+.left_text {
+top:10px;
+margin-left:0px;
+
+
+}
+ 
+.right_text  {
+top:10px;
+margin-right:100px;
+
+}
+.state{
+	font-size: 24px;
+	font-style: italic;
+	padding-top: 50px;
+}
+.bxslider2 img {
+	border-radius: 100px; 
+}
