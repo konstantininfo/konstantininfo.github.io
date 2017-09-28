@@ -1,0 +1,397 @@
+﻿@font-face {
+	font-family: 'Arial Black';
+	src: url('../fonts/Arial-Black.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/Arial-Black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('../fonts/Arial-Black.woff2') format('woff2'), /* Super Modern Browsers */
+	url('../fonts/Arial-Black.woff') format('woff'), /* Pretty Modern Browsers */
+	url('../fonts/Arial-Black.ttf')  format('truetype'), /* Safari, Android, iOS */
+	url('../fonts/Arial-Black.svg#Arial-Black') format('svg'); /* Legacy iOS */
+}
+
+/* Общие стили проекта  */ 
+
+body {
+	font-family: 'Arial', sans-serif;
+	font-size: 17px;
+	color: #434b4b;
+}
+
+.text-white {
+	color: #fff;
+}
+
+.text-brown {
+	color: #cdcdc1;
+}
+
+.text-default {
+	color: #434b4b;
+}
+
+.text-blue {
+	color: #8998a0;
+}
+
+.upper {
+	text-transform: uppercase;
+}
+
+a {
+	text-decoration: none;
+	border-bottom: 1px solid;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.font-black {
+	font-family: 'Arial Black', sans-serif;
+}
+
+h2 {
+	padding: 0px;
+	margin: 0px;
+}
+
+.font-times {
+	font-family: 'Times New Roman', serif;
+	font-style: italic;
+	letter-spacing: 0.06em;
+}
+
+.text-grey {
+	color: #909494;
+}
+
+/* Главная страница */
+
+#first {
+	background: url(../img/fonshapka.png) no-repeat center top;
+	height: 833px;
+	color: #fff;
+}
+
+p {
+	line-height: 1.6em;
+	margin-bottom: 24px;
+}
+
+header {
+	padding-top: 30px;
+}
+
+.header__nav {
+	margin-top: 17px;
+	margin-left: 40px;
+}
+
+.header__nav li {
+	margin-right: 34px;
+	display: block;
+	float: left;
+}
+
+.header__nav li a {
+	color: #fff;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-family: 'Arial Black';
+	border-bottom: 0px;
+}
+
+.header__nav li a:hover {
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	text-decoration: none;
+	padding: 7px 0px;
+}
+
+.header__current {
+	margin-top: 17px;
+}
+
+.header__email {
+	margin-top: 17px;
+	margin-left: 85px;
+}
+
+.header__current-link {
+	color: #fff;
+	padding-bottom: 4px;
+}
+
+.header__current-link:hover {
+	color: #fff;
+	border-bottom: 0px;
+}
+
+.header__logo-link {
+	border-bottom: 0px;
+}
+
+.offer {
+
+}
+
+.offer__img {
+	display: block;
+	margin: 200px auto;
+}
+
+.arrow {
+	background: url(../img/arrow.png) no-repeat center top;
+	height: 39px;
+	width: 78px;
+	margin: 14px auto 0px auto;
+}
+
+#about {
+	padding-top: 100px;
+}
+
+.lefter {
+
+}
+
+.lefter__title {
+	font-size: 94px;
+	position: relative;
+	z-index: 3;
+}
+
+.lefter__name {
+	font-size: 18px;
+
+	margin: 38px 0px 20px;
+	position: relative;
+	z-index: 3;
+}
+
+.lefter__details {
+	font-style: italic;
+	line-height: 1.7em;
+	position: relative;
+	z-index: 3;
+}
+
+.lefter__icons {
+	margin-top: 80px;
+}
+
+.lefter__icons:before {
+	
+	font-size: 94px;
+	display: block;
+	color: #cbb196;
+	font-family: 'Arial Black';
+	position: absolute;
+	left: -58px;
+	margin-top: -60px;
+}
+
+.lefter__icons a {
+	font-size: 18px;
+	color: #5d645b;
+	border: 1px solid #5d645b;
+	border-radius: 50%;
+	text-align: center;
+	width: 38px;
+	height: 38px;
+	line-height: 38px;
+	display: block;
+	float: left;
+	margin-right: 18px;
+}
+
+.lefter__icons a:hover {
+	background: #5d645b;
+	color: #fff;
+}
+
+.lefter__rectangle {
+	width: 589px;
+	height: 323px;
+	border: 10px solid #cdcdc1;
+	position: absolute;
+	top: -40px;
+	left: -54px;
+	z-index: 2;
+}
+
+.righter {
+	background: url(../img/avatar.png) no-repeat left top;
+	padding-left: 125px;
+}
+.righter__info {
+	padding-top: 10px;
+}
+.righter__title {
+	font-size: 19px;
+	margin-bottom: 5px;
+}
+
+.righter__desc {
+	font-size: 17px;
+}
+
+.righter__text {
+	margin-top: 20px;
+}
+
+.righter__link {
+	font-size: 14px;
+	color: #434b4b;
+	border-bottom: 0px;
+}
+
+.h2-reg {
+	font-size: 30px;
+	font-family: 'Arial Black';
+	text-transform: uppercase;
+
+}
+
+.h2-reg span.hot__title-tab {
+	border-top: 3px solid #dee2e5;
+	border-bottom: 3px solid #dee2e5;
+	padding: 15px 0px;
+}
+
+#hot {
+	margin-top: 100px;
+}
+
+.hot__title-tab:after {
+	content: '→';
+	font-size: 30px;
+	color: #cdd2d6;
+	position: absolute;
+	margin-left: 25px;
+	margin-top: -5px;
+}
+
+.hot__posts {
+	clear: both;
+	margin-top: 140px;
+}
+
+.hot__post {
+	margin-bottom: 60px;
+}
+
+.hot__title {
+	font-size: 19px;
+	color: #434b4b;
+	border-bottom: 0px;
+	margin-left: 20px;
+	display: block;
+	margin-top: 20px;
+}
+
+.hot__meta {
+	margin: 15px 0px;
+	font-size: 18px;
+	clear: both;
+	color: #8a8e8e;
+	margin-left: 20px;
+}
+
+.hot__date {
+	margin-right: 24px;
+	float: left;
+}
+
+.hot__folder {
+	float: left;
+}
+
+.hot__folder a {
+	color: #8a8e8e;
+}
+
+.hot__link {
+	font-family: 'Arial Black';
+	color:#8998a0;
+	display: block;
+	width: 208px;
+	padding: 14px 0px;
+	text-align: center;
+	border: 2px solid #8998a0;
+	margin-left: 20px;
+}
+
+.hot__link:hover {
+	background: #8998a0;
+	color: #fff;
+}
+
+.hot__intro {
+	margin-left: 20px;
+}
+
+.hot__img-wrap {
+	position: relative;
+}
+
+.hot__img-wrap:after {
+	content:'';
+	display: block;
+	width: 113px;
+	height: 113px;
+	border-left: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	opacity: 0.5;
+	position: absolute;
+	left: 30px;
+	bottom: 30px;
+	pointer-events: none;
+}
+
+#diary {
+	margin-top: 100px;
+}
+
+.diary__post {
+	margin-top: 70px;
+
+}
+
+.diary__date {
+	color: #939797;
+	margin-bottom: 20px;
+	margin-left: 30px;
+}
+
+.diary__wrap {
+	height: 305px;
+	position: relative;
+}
+
+.diary__img {
+	width: 100%;
+}
+
+.diary__inner {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	background: rgba(0,0,0,0);
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,0)), color-stop(100%, rgba(0,0,0,1)));
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+	background: -o-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+	background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0 );
+	    padding: 30px 20px 30px 30px;
+}
+
+.diary__link {
+	color: #fff;
+	border-bottom: 0px;
+	margin-top: 10px;
+	display: block;
+	font-size: 13px;
+}
